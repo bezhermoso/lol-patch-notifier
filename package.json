@@ -1,0 +1,25 @@
+{
+  "name": "lol-patch-notifier",
+  "version": "0.0.1",
+  "description": "Use LoL Data Dragon API to check for new patches. Notifies subscribers when a new version is added.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bezhermoso/lol-patch-notififer.git"
+  },
+  "author": "Bez Hermoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bezhermoso/lol-patch-notififer/issues"
+  },
+  "homepage": "https://github.com/bezhermoso/lol-patch-notififer#readme",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "commander": "^2.8.1",
+    "ramda": "^0.17.1",
+    "request": "^2.64.0"
+  }
+}
