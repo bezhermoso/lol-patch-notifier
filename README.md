@@ -15,7 +15,7 @@ subscribers about them.
 It only comes with Slack integration for now.
 
 ```
-> node cmd.js slack https://hooks.slack.com/services/... --since=5.19 --frequency=60
+> node cmd.js slack https://hooks.slack.com/services/... --since=5.18 --frequency=60
 ```
 
 This will check for any patches after Patch 5.19 every hour (60 minutes), and
