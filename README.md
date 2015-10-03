@@ -15,9 +15,11 @@ subscribers about them.
 It only comes with Slack integration for now.
 
 ```
-> node cmd.js slack <Slack incoming webhook URL> --since=5.19 --frequency=60
+> node cmd.js slack https://hooks.slack.com/services/... --since=5.19 --frequency=60
 ```
 
 This will check for any patches after Patch 5.19 every hour (60 minutes), and
 notifies the channel/user on Slack with which the incoming webhook integration
 was configured to post to.
+
+<img src="http://i.imgur.com/dPe3jfG.png" />
